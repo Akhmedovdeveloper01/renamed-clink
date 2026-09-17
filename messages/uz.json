@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "RENAMED Aesthetic Clinic — Samarqand",
+    "description": "RENAMED Aesthetic Clinic — Samarqanddagi zamonaviy estetik klinika. Kosmetologiya, lazer va estetika yo‘nalishlarida premium parvarish.",
+    "ogTitle": "RENAMED Aesthetic Clinic — Zamonaviy texnologiyalar, premium parvarish",
+    "ogDescription": "Samarqandda kosmetologiya, lazer va estetika bo‘yicha zamonaviy klinika."
+  },
+  "nav": {
+    "services": "Xizmatlar",
+    "promotions": "Aksiyalar",
+    "about": "Biz haqimizda",
+    "specialists": "Mutaxassislar",
+    "reviews": "Mijozlar fikri",
+    "blog": "Maslahatlar",
+    "faq": "Savol-javob",
+    "contacts": "Manzil"
+  },
+  "header": {
+    "bookVisit": "Qabulga yozilish",
+    "call": "Qo‘ng‘iroq qilish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish"
+  },
+  "languageSwitcher": {
+    "label": "Til",
+    "uz": "UZ",
+    "ru": "RU"
+  },
+  "theme": {
+    "toggleToLight": "Yorug‘ rejimga o‘tish",
+    "toggleToDark": "Qorong‘i rejimga o‘tish"
+  },
+  "hero": {
+    "eyebrow": "Samarqand · Aesthetic Clinic",
+    "titleLine1": "Zamonaviy texnologiyalar,",
+    "titleLine2": "premium parvarish",
+    "subtitle": "RENAMED — Samarqand shahridagi zamonaviy estetik klinika. Kosmetologiya, lazer va estetika yo‘nalishlarida individual yondashuv va yuqori sifat xizmati.",
+    "ctaBook": "Qabulga yozilish",
+    "ctaCall": "Qo‘ng‘iroq qilish",
+    "badgeCosmetology": "Kosmetologiya",
+    "badgeLaser": "Lazer",
+    "badgeAesthetics": "Estetika",
+    "scrollHint": "Pastga suring"
+  },
+  "about": {
+    "eyebrow": "Klinika haqida",
+    "title": "Go‘zallik va sog‘lik uyg‘unligi",
+    "paragraph1": "RENAMED Aesthetic Clinic zamonaviy uskunalar, sertifikatlangan mutaxassislar va individual yondashuv asosida ishlaydi. Bizning maqsadimiz — har bir mijozga xavfsiz va sifatli parvarish taqdim etish.",
+    "paragraph2": "Klinikamizda kosmetologiya, lazer va estetika yo‘nalishlari bir joyda jamlangan bo‘lib, har bir protsedura shifokor konsultatsiyasidan so‘ng individual reja asosida amalga oshiriladi.",
+    "counterYearsLabel": "yillik tajriba",
+    "counterClientsLabel": "mamnun mijoz",
+    "counterProceduresLabel": "o‘tkazilgan protsedura",
+    "counterSpecialistsLabel": "mutaxassis"
+  },
+  "services": {
+    "eyebrow": "Yo‘nalishlar",
+    "title": "Xizmat yo‘nalishlarimiz",
+    "subtitle": "Uchta asosiy yo‘nalish orqali mijozlarimizga keng qamrovli parvarish taqdim etamiz.",
+    "learnMore": "Batafsil",
+    "proceduresLabel": "Protsedura namunalari",
+    "placeholderNotice": "Ro‘yxat namuna sifatida keltirilgan — tahrirlash kerak",
+    "backToServices": "Yo‘nalishlarga qaytish",
+    "ctaTitle": "Qaysi yo‘nalish sizga mos ekanini bilmoqchimisiz?",
+    "ctaSubtitle": "Bepul konsultatsiya uchun murojaat qiling — mutaxassislarimiz sizga eng mos yechimni tavsiya qiladi.",
+    "ctaBook": "Konsultatsiyaga yozilish",
+    "categoryAll": "Barchasi",
+    "viewAll": "Barcha xizmatlar",
+    "whatIsItTitle": "Bu nima?",
+    "indicationsTitle": "Kimlarga tavsiya etiladi",
+    "benefitsTitle": "Afzalliklari",
+    "stepsTitle": "Muolaja qanday o‘tadi",
+    "preparationTab": "Tayyorgarlik",
+    "aftercareTab": "Parvarish",
+    "contraindicationsTitle": "Qarshi ko‘rsatmalar",
+    "factsTitle": "Asosiy ma'lumotlar",
+    "factsDuration": "Davomiyligi",
+    "factsSessions": "Seanslar soni",
+    "factsPrice": "Narxi",
+    "factsOldPrice": "Eski narx",
+    "faqTitle": "Savol-javob",
+    "relatedTitle": "O‘xshash xizmatlar",
+    "disclaimer": "Natijalar individual xususiyatlarga bog‘liq. Protsedura oldidan mutaxassis konsultatsiyasi va qarshi ko‘rsatmalarni aniqlash talab etiladi.",
+    "bookThisService": "Ushbu xizmatga yozilish",
+    "trendVsFaceTitle": "Trend emas, sizning yuzingiz",
+    "trendVsFaceText": "Har bir yuzning proporsiyasi o‘ziga xos. Chiroyli va tabiiy natija trenddan emas, sizning yuzingizdan boshlanadi.",
+    "trendVsFaceOptionTrend": "Trend",
+    "trendVsFaceOptionFace": "Sizning yuzingiz",
+    "bodyAreaTitle": "Sohani tanlang",
+    "complexTrioTitle": "Uch bosqichli kompleks yondashuv",
+    "promoBadgeLabel": "Aksiya",
+    "stickyNavAria": "Sahifa bo‘limlari"
+  },
+  "technologies": {
+    "eyebrow": "Uskunalar",
+    "title": "Zamonaviy texnologiyalar",
+    "subtitle": "Xalqaro sertifikatlangan zamonaviy uskunalarda ishlaymiz — natija xavfsizlik va sifat bilan uyg‘un."
+  },
+  "whyUs": {
+    "eyebrow": "Nima uchun aynan biz",
+    "title": "RENAMED’ni tanlash sabablari",
+    "item1Title": "Sertifikatlangan mutaxassislar",
+    "item1Description": "Barcha protseduralar tajribali va malakali shifokorlar tomonidan bajariladi.",
+    "item2Title": "Zamonaviy uskunalar",
+    "item2Description": "Xalqaro sertifikatga ega uskunalar orqali xavfsiz va samarali natijalarga erishamiz.",
+    "item3Title": "Individual yondashuv",
+    "item3Description": "Har bir mijoz uchun alohida konsultatsiya va parvarish rejasi tuziladi.",
+    "item4Title": "Steril muhit",
+    "item4Description": "Klinikamizda tozalik va sterillik xalqaro standartlarga muvofiq ta’minlanadi.",
+    "item5Title": "Shaffof muloqot",
+    "item5Description": "Protsedura jarayoni va natijalar haqida ochiq va tushunarli tarzda ma’lumot beramiz.",
+    "item6Title": "Qulay joylashuv",
+    "item6Description": "Klinikamiz Samarqand markazida, qulay transport yo‘lagida joylashgan."
+  },
+  "specialists": {
+    "eyebrow": "Jamoamiz",
+    "title": "Mutaxassislarimiz",
+    "subtitle": "Tajribali va malakali mutaxassislar jamoasi sizning go‘zalligingiz uchun ishlaydi."
+  },
+  "beforeAfter": {
+    "eyebrow": "Natijalar",
+    "title": "Oldin / Keyin",
+    "subtitle": "Slayderni suring va natijalarni solishtiring.",
+    "before": "Oldin",
+    "after": "Keyin",
+    "consentNote": "Namunaviy tasvirlar. Haqiqiy mijoz fotosuratlari faqat yozma rozilik asosida joylashtiriladi."
+  },
+  "reviews": {
+    "eyebrow": "Mijozlar fikri",
+    "title": "Bizning mijozlarimiz nima deydi",
+    "subtitle": "Mijozlarimizning haqiqiy his-tuyg‘ulari biz uchun eng muhim baho."
+  },
+  "blog": {
+    "eyebrow": "Maslahatlar",
+    "title": "Foydali maslahatlar",
+    "subtitle": "Protseduralar haqida foydali va ishonchli ma'lumotlar.",
+    "readMore": "Batafsil",
+    "backToBlog": "Maslahatlarga qaytish",
+    "relatedServiceCta": "Ushbu xizmat haqida",
+    "readingTimeLabel": "o‘qish",
+    "minutesShort": "daq.",
+    "viewAll": "Barcha maslahatlar"
+  },
+  "promotions": {
+    "eyebrow": "Maxsus takliflar",
+    "title": "Joriy aksiyalar",
+    "ctaBook": "Konsultatsiyaga yozilish",
+    "viewService": "Xizmat haqida",
+    "endsIn": "Aksiya tugashiga",
+    "days": "kun",
+    "hours": "soat",
+    "minutes": "daqiqa",
+    "seconds": "soniya",
+    "datesUnconfirmed": "Aniq muddat tasdiqlanmoqda"
+  },
+  "faq": {
+    "eyebrow": "Savol-javob",
+    "title": "Tez-tez so‘raladigan savollar",
+    "subtitle": "Savolingizga javob topa olmadingizmi? Biz bilan bog‘laning."
+  },
+  "booking": {
+    "eyebrow": "Qabulga yozilish",
+    "title": "Qabulga yoziling",
+    "subtitle": "Formani to‘ldiring — administratorimiz tez orada siz bilan bog‘lanadi.",
+    "nameLabel": "Ismingiz",
+    "namePlaceholder": "Ismingizni kiriting",
+    "phoneLabel": "Telefon raqamingiz",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "serviceLabel": "Yo‘nalish",
+    "servicePlaceholder": "Yo‘nalishni tanlang",
+    "dateLabel": "Qulay sana",
+    "commentLabel": "Izoh",
+    "commentPlaceholder": "Qo‘shimcha ma’lumot (ixtiyoriy)",
+    "submit": "Yuborish",
+    "submitting": "Yuborilmoqda...",
+    "successTitle": "Rahmat!",
+    "successMessage": "So‘rovingiz qabul qilindi. Administratorimiz tez orada siz bilan bog‘lanadi.",
+    "sendAnother": "Yana bir so‘rov yuborish",
+    "privacyNote": "Ma’lumotlaringiz faqat siz bilan bog‘lanish uchun ishlatiladi.",
+    "errorName": "Ismni kiriting (kamida 2 ta belgi)",
+    "errorPhone": "Telefon raqamini to‘g‘ri formatda kiriting",
+    "errorService": "Yo‘nalishni tanlang",
+    "errorDate": "Sanani tanlang",
+    "errorDatePast": "O‘tgan sanani tanlab bo‘lmaydi",
+    "errorGeneric": "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring yoki qo‘ng‘iroq qiling.",
+    "errorRateLimit": "Juda ko‘p so‘rov yuborildi. Birozdan so‘ng qayta urinib ko‘ring."
+  },
+  "contacts": {
+    "eyebrow": "Aloqa",
+    "title": "Biz bilan bog‘laning",
+    "addressLabel": "Manzil",
+    "addressValue": "Mirzo Ulug‘bek ko‘chasi, 48/6, Samarqand, O‘zbekiston",
+    "hoursLabel": "Ish vaqti",
+    "hoursValue": "[Ish kunlari], [Ish soatlari]",
+    "phoneLabel": "Telefon",
+    "socialLabel": "Ijtimoiy tarmoqlar",
+    "mapTitle": "Klinika joylashuvi xaritada"
+  },
+  "footer": {
+    "description": "RENAMED Aesthetic Clinic — Samarqanddagi zamonaviy estetik klinika. Kosmetologiya, lazer va estetika yo‘nalishlarida premium parvarish.",
+    "quickLinksTitle": "Havolalar",
+    "contactsTitle": "Aloqa",
+    "followTitle": "Ijtimoiy tarmoqlar",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "floating": {
+    "call": "Qo‘ng‘iroq",
+    "book": "Yozilish",
+    "callPickerTitle": "Qaysi raqamga qo‘ng‘iroq qilasiz?",
+    "close": "Yopish"
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "description": "Siz izlagan sahifa mavjud emas yoki ko‘chirilgan.",
+    "backHome": "Bosh sahifaga qaytish"
+  }
+}

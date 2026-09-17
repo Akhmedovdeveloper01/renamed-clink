@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Light theme — ivory / deep navy / champagne */
+  --color-bg: #faf8f4;
+  --color-bg-elevated: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f2efe8;
+  --color-foreground: #10192f;
+  --color-foreground-muted: #4a5268;
+  --color-border: rgba(16, 25, 47, 0.1);
+  --color-border-strong: rgba(16, 25, 47, 0.16);
+
+  --color-brand-start: #1e40af;
+  --color-brand-end: #1e3a8a;
+  --color-brand: #1e3a8a;
+  --color-brand-foreground: #ffffff;
+  --color-accent: #c9a86a;
+  --color-accent-soft: #f1e6d2;
+
+  --color-ring: #1e40af;
+
+  --shadow-soft: 0 20px 60px -25px rgba(16, 25, 47, 0.35);
+  --shadow-card: 0 10px 30px -12px rgba(16, 25, 47, 0.18);
+  --glow: 0 0 0 rgba(30, 64, 175, 0);
+}
+
+.dark {
+  /* Dark theme — deep navy-black / ivory / brighter royal blue */
+  --color-bg: #070b16;
+  --color-bg-elevated: #0c1224;
+  --color-surface: #0e1526;
+  --color-surface-muted: #121a30;
+  --color-foreground: #f4f1ea;
+  --color-foreground-muted: #a9b0c4;
+  --color-border: rgba(244, 241, 234, 0.1);
+  --color-border-strong: rgba(244, 241, 234, 0.18);
+
+  --color-brand-start: #4d6fff;
+  --color-brand-end: #3555db;
+  --color-brand: #4d6fff;
+  --color-brand-foreground: #ffffff;
+  --color-accent: #e3c98a;
+  --color-accent-soft: #2a2416;
+
+  --color-ring: #4d6fff;
+
+  --shadow-soft: 0 20px 60px -20px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 10px 30px -12px rgba(0, 0, 0, 0.5);
+  --glow: 0 0 40px rgba(77, 111, 255, 0.25);
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-bg-elevated: var(--color-bg-elevated);
+  --color-surface: var(--color-surface);
+  --color-surface-muted: var(--color-surface-muted);
+  --color-foreground: var(--color-foreground);
+  --color-foreground-muted: var(--color-foreground-muted);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-brand-start: var(--color-brand-start);
+  --color-brand-end: var(--color-brand-end);
+  --color-brand: var(--color-brand);
+  --color-brand-foreground: var(--color-brand-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-ring: var(--color-ring);
+
+  --font-serif: var(--font-display);
+  --font-sans: var(--font-body);
+
+  --animate-float-slow: float 14s ease-in-out infinite;
+  --animate-float-slower: float 20s ease-in-out infinite;
+  --animate-marquee: marquee 40s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2%, -4%, 0) scale(1.05);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+html {
+  scroll-behavior: auto;
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: var(--color-brand-foreground);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.container-px {
+  padding-left: max(1.25rem, env(safe-area-inset-left));
+  padding-right: max(1.25rem, env(safe-area-inset-right));
+}
+
+.brand-gradient {
+  background-image: linear-gradient(
+    135deg,
+    var(--color-brand-start),
+    var(--color-brand-end)
+  );
+}
+
+.brand-text-gradient {
+  background-image: linear-gradient(
+    135deg,
+    var(--color-brand-start),
+    var(--color-accent)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: color-mix(in oklab, var(--color-surface) 72%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
