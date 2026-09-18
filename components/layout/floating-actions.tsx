@@ -14,7 +14,7 @@ export function FloatingActions() {
       {/* Mobile sticky bottom bar */}
       <div className="container-px fixed inset-x-0 bottom-0 z-40 flex gap-3 border-t border-border bg-bg/95 py-3 backdrop-blur-md lg:hidden">
         <CallPicker
-          panelPosition="top"
+          variant="modal"
           wrapperClassName="flex-1"
           className="flex min-h-11 items-center justify-center gap-2 rounded-full border border-border-strong text-sm font-semibold text-foreground"
         >
